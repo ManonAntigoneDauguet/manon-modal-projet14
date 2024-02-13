@@ -1,0 +1,28 @@
+{
+    "name": "manon-modal-projet14",
+    "version": "1.0.0",
+    "description": "Modal of project 14",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "copy src\\close.svg dist\\close.svg && copy src\\style.module.css dist\\style.module.css && babel src -d dist",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "react",
+        "component",
+        "npm",
+        "modal"
+    ],
+    "author": "Manon Antigone Dauguet",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.23.9",
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-react": "^7.23.3"
+    }
+}
