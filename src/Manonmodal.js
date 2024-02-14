@@ -6,10 +6,10 @@ import closeIcon from "./close.svg";
 /**
  * Return a simple confirmation modal that can close itself with a button
  * @param { String } text 
- * @param { Function } methodeOff as the the method closing the modal
+ * @param { Function } onClose as the the method called when the close button is clicked
  * @returns { HTMLElement }
  */
-const Manonmodal = ({ text, methodeOff }) => {
+const ManonModal = ({ text, onClose }) => {
 
   return (
     <div className={style.modalContainer}>
@@ -23,7 +23,7 @@ const Manonmodal = ({ text, methodeOff }) => {
           />
           <input
             type="button"
-            onClick={methodeOff}
+            onClick={onClose}
             className={style.closeButton}
           />
         </div>
@@ -33,4 +33,4 @@ const Manonmodal = ({ text, methodeOff }) => {
 }
 
 
-export default Manonmodal;
+export default ManonModal;

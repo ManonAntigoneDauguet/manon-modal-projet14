@@ -11,12 +11,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 /**
  * Return a simple confirmation modal that can close itself with a button
  * @param { String } text 
- * @param { Function } methodeOff as the the method closing the modal
+ * @param { Function } onClose as the the method called when the close button is clicked
  * @returns { HTMLElement }
  */
-var Manonmodal = function Manonmodal(_ref) {
+var ManonModal = function ManonModal(_ref) {
   var text = _ref.text,
-    methodeOff = _ref.methodeOff;
+    onClose = _ref.onClose;
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: _styleModule["default"].modalContainer
   }, /*#__PURE__*/_react["default"].createElement("div", {
@@ -30,8 +30,8 @@ var Manonmodal = function Manonmodal(_ref) {
     className: _styleModule["default"].icon
   }), /*#__PURE__*/_react["default"].createElement("input", {
     type: "button",
-    onClick: methodeOff,
+    onClick: onClose,
     className: _styleModule["default"].closeButton
   }))));
 };
-var _default = exports["default"] = Manonmodal;
+var _default = exports["default"] = ManonModal;

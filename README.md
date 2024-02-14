@@ -5,12 +5,12 @@ Create a little modal with a confirmation message and a close button. This modal
 ## How to add the modal
 
 ### Installation
-Add the modal to your project by executing `npm i manon-modal-projet14`
+Add the modal to your project by executing `npm i manon-projet14`
 
 ### Usage
 Here's an example of usage :
 
-    import { ManonModal } from 'manon-modal-projet14/dist'
+    import { ManonModal } from 'manon-projet14/dist'
     import { useState } from "react"
 
     function MyApp() {

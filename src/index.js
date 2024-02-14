@@ -1,5 +1,5 @@
 import style from "./style.module.css";
 import closeIcon from "./close.svg"
-import Manonmodal from "./Manonmodal";
+import ManonModal from "./ManonModal";
 
-export { style, closeIcon, Manonmodal };
+export { style, closeIcon, ManonModal };

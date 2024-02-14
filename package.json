@@ -1,11 +1,15 @@
 {
-    "name": "manon-modal-projet14",
-    "version": "1.0.0",
+    "name": "manon-projet14",
+    "version": "1.0.46",
     "description": "Modal of project 14",
-    "main": "src/index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "copy src\\close.svg dist\\close.svg && copy src\\style.module.css dist\\style.module.css && babel src -d dist",
         "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ManonAntigoneDauguet/manon-modal-projet14.git"
     },
     "keywords": [
         "react",
